@@ -1,0 +1,93 @@
+/*Documento CSS*/
+
+*{margin: 0;
+  padding: 0;}
+
+  @font-face {
+    font-family: 'Angel wish';
+    src: url("/fonts/Angelwish-Regular.woff2") format('woff2'),
+        url('/fonts/Angelwish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.cabecera{
+    font-family: 'Angel wish';
+    font-size: 20px;
+    background: #a1a;
+    min-height: 1px;
+    width: 100%;}
+
+
+
+.bar{min-height: 1px;}
+
+.logo{
+    color: gold;
+    font-size: 2em;
+    display: block;
+    width: 60px;
+    padding: 8px 0px;
+    margin: auto;}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.items{
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+    color: gold;
+    background-color: rgb(112, 0, 112);
+    padding: 8px 0;
+}
+
+.container a:first-child{display: none;}
+
+/*BREAKPOINT 600PX*/
+
+@media only screen and (min-width:600px) {
+
+.logo{font-size: 4em;}
+
+.items {width: 25%;}
+
+}
+
+/*BREAKPOINT 992PX*/
+
+@media only screen and (min-width:992px) {
+
+.container a:first-child{
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;}
+
+.container a:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.items{width: 20%;}
+
+
+    
+.container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #300058;
+    }
+
+    .container:hover{background-color: #280051;}
+    .container:active{background-color: #280051;}
+
+    }
