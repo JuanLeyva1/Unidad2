@@ -1,0 +1,24 @@
+/*Documento Css*/
+
+* {margin: 0px;
+   padding: 0px;
+   font-size: 18px}
+
+h1{font-family: "Zen Dots", sans-serif;
+    text-align: center;}
+
+body{font-family: Gemunu Libre, sans-serif;}
+
+.cabecera{margin-bottom: 32px;}
+
+.tablas{margin-bottom: 32px;
+    min-width: 1px;
+    background-color: rgba(220, 20, 60, 0.562);
+    padding: 16px 0px;
+    }
+
+
+
+    .tablas table{margin: auto;}
+
+    div.tablas {color:rgb(131, 53, 53)k;}
