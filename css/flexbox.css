@@ -1,0 +1,71 @@
+/*DUCUMENTO CSS*/
+
+*{margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    min-height: 1px;
+    width: 100%;
+    padding:;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.items{
+    width:100%;
+    height: 400px;
+    text-align: center;
+    background-image: url(https://picsum.photos/id/237/400/300);
+    background-size: 100% 100%;
+
+}
+
+h3{
+    color: aliceblue;
+    font-size: 2.6em;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 190px; 
+}
+
+
+/*
+.tres{
+    align-self: flex-end;}
+
+    PARA MOVER UN SOLO ELEMENTO PARA ABAJO
+*/
+
+/* MEDIA QUERIES BREAKPOIONT 992PX */
+
+@media only screen and (min-width:600px) {
+
+.container{flex-wrap:wrap;
+            flex-direction:row;
+        margin: auto;}   
+
+.items{width: 50%;}
+
+
+} 
+
+@media only screen and (min-width:992px) {
+
+    .container{flex-wrap: nowrap;
+               width: 1110px;
+               margin: 32px, auto;
+            }   
+    
+    .items{width: 50%;
+        height: 200px;
+            margin-left: 16px;}
+    
+h3 {padding-top: 90px !important;
+font-size: 1.4em;}
+
+.items:hover{filter:grayscale(100);}
+    
+    } 

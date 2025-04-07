@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Angel wish';
+    src: url('Angelwish-Regular.woff2') format('woff2'),
+        url('Angelwish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CocogooseProTrial Semilight';
+    src: url('CocogooseProTrial-Semilight.woff2') format('woff2'),
+        url('CocogooseProTrial-Semilight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

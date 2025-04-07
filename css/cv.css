@@ -1,0 +1,172 @@
+
+/*Documento CSS*/
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#d6b709 ;}
+
+.cabecera{
+    font-family:"Special Elite";
+    font-size: 20px;
+    background: #d6b709;
+    min-height: 1px;
+    width: 100%;}
+
+
+.bar{background-image: url(/img/fondo.jpg);
+    min-height: 1px;
+    height: 400px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    font-size: 200%;
+    color: #d6b709;
+    background-size: cover;}
+
+
+h1{font-family:"Special Elite", system-ui ;
+    text-align: center;}
+
+h2{font-family:"Special Elite", system-ui ;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+p{  font-size: calc(1.2vm + .7em);
+    font-family:"Special Elite", system-ui ;
+    margin-bottom: 20px;}
+
+.container{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;}
+
+.items{
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+    color: #d6b709;
+    background: #d6b709;
+    background-color: #0e0b00;
+    padding: 8px 0;}
+
+img{
+    width: 75vw;
+    max-width: 700px;
+    min-width: 320px;
+    margin-top: auto;}
+
+ 
+
+.d-flex{
+
+    align-items: center;
+    font-size: 30px;
+    text-align: center;}
+
+
+.des{
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+    font-size: 30px;
+
+}
+
+.exp{
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+    font-size: 30px;    
+}
+
+
+
+.hard {
+    align-items: center;
+    text-align: left;
+    margin: 60px;
+    font-size: 30px;  
+}
+
+.soft{
+    align-items: center;
+    text-align: left;
+    margin: 60px;
+    font-size: 30px;  
+}
+
+.skills{
+    justify-content: center;
+}
+
+/*BREAKPOINT 600PX*/
+
+@media screen and (min-width:640px) {
+
+
+.items {width: 25%;}
+
+}
+
+.d-flex{
+    margin: 16px;
+}
+
+/*BREAKPOINT 992PX*/
+
+@media only screen and (min-width:992px) {
+
+
+.items{width: 25%;}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;}
+
+.foto{
+    margin-right: 40px;}
+    
+
+
+.job{
+    display: flex;
+    align-items: center;}
+
+.des{
+    width: 50%;
+
+}
+
+.exp{
+    width: 50%;
+}
+
+
+
+.skills{
+    align-items: center;
+    justify-content: center;
+    display:flex;}
+}
+
+.container{
+    width: 85%;
+    margin-top: 16px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 0px #300058;}
+
+    .container:hover{background-color: #fbf7ff;}
+    .container:active{background-color: #ffffff;}
+}
