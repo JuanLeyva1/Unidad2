@@ -19,7 +19,7 @@ body {
     width: 100%;}
 
 
-.bar{background-image: url(/img/fondo.jpg);
+.bar{background-image: url(../../img/fondo.jpg);
     min-height: 1px;
     height: 400px;
     align-items: center;
