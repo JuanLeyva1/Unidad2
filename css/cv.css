@@ -60,7 +60,6 @@ p{  font-size: calc(1.2vm + .7em);
 
 img{
     width: 75vw;
-    height: 75vw;
     max-width: 700px;
     min-width: 320px;
     margin-top: auto;}
